@@ -1,0 +1,161 @@
+body {
+  background: rgb(117,130,240);
+  background: radial-gradient(circle, rgba(117,130,240,1) 0%, rgba(41,57,194,1) 100%);
+  font-family: 'Poppins', sans-serif;
+}
+
+#form {
+  width: 500px;
+  margin: 20vh auto;
+  margin-top: 5vh;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  font-size: 12px;
+  text-align: center; /* Center the form contents horizontally */
+}
+
+#form h1 {
+  color: #000; /* Black font color */
+}
+
+#form button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: rgb(41, 57, 194);
+  border: none;
+  border-radius: 4px;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 8px; /* Adjust the value to control the roundness */
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 95%;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+
+.select {
+  width: 100%;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 15px;
+  padding:9px;
+  cursor: pointer;
+  line-height: 1.2;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+.checkBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.inputBox {
+  padding: 5px;
+}
+
+.labelContainer p {
+  color: #000; /* Black font color */
+}
+.labelContainer{
+  display: flex;
+  align-items: center;
+}
+
+
+.termsLabel {
+  text-align: center;
+  color: #000; /* Black font color */
+}
+
+.fnln-container, .unNum-container{
+  width:48%;
+  padding:10px;
+}
+
+.row1{
+  display:flex;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.success-icon {
+  font-size: 20em; 
+  color:white;
+  margin-bottom: -5vh;
+}
+
+.success-text{
+  color:white;
+  font-size: 5em;
+  margin-top: -0.3em;
+  font-weight:bold;
+}
+
+.success-desc{
+  color:white;
+  font-size: 1.5em;
+  margin-top: -2em;
+}
+
+/* HomePage.css */
+.home-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.chat-container {
+  flex: 1;
+  padding: 20px;
+}
