@@ -10,9 +10,9 @@ const HomePage = () => {
         <Link to="/about">About</Link>
         <Link to="/">Log Out</Link>
       </div>
-      <div className="chat-container">
-        <h1>Welcome to Shen's Home Page</h1>
-        <p>Feel free to explore the options on the sidebar.</p>
+      <div className="homeContent">
+        <h1 className='homeHeader'>Welcome to Shen's Home Page</h1>
+        <p className='homeDescription'>Feel free to explore the options on the sidebar.</p>
       </div>
     </div>
   );

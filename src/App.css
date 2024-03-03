@@ -145,6 +145,8 @@ body {
   width: 200px;
   background-color: #f0f0f0;
   padding: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -155,7 +157,43 @@ body {
   color: #333;
 }
 
-.chat-container {
+.homeContent {
   flex: 1;
   padding: 20px;
+}
+
+.homeDescription{
+  color:white;
+}
+
+/*About Page*/
+.content{
+ display:flex;
+ flex-direction: column;
+ padding:20px;
+}
+
+.aboutHeader, .homeHeader{
+  color:white;
+  font-size: 42px;
+}
+.aboutIntro{
+ 
+}
+
+.aboutIntroContainer{
+  text-align: center;
+  margin-top:-20px;
+  padding: 10px;
+  width:60%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.aboutDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height: auto;
 }
