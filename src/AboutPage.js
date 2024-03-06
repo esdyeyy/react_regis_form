@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import './App.css';
 
 const AboutPage = () => {
-  const Introduction =
-   "My name is Shen Jeuz D. Herrera, currently 20 years old. I am a third-year Information Technology Student from Technological Institute of the Philippines.";
 
   return (
     
@@ -15,11 +13,19 @@ const AboutPage = () => {
         <Link to="/">Log Out</Link>
     </div>
     <div  className="content">
-      <h1 className='aboutHeader'>About Me</h1>
+      <div className="aboutHeaderContainer">
+        <h1 className='aboutHeader'>About Me</h1>
+      </div>
+      
 
       <div className='aboutDiv'>
         <div className='aboutIntroContainer'>
-          <p className='aboutIntro'>{Introduction}</p>
+          <h2 className='aboutIntro'>Name: </h2>
+          <p>Shen Jeuz D. Herrera</p>
+          <h2>Section: </h2>
+          <p>IT32S1</p>
+          <h2>Program: </h2>
+          <p>BSIT</p> 
         </div>
       </div>
      
